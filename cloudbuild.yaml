@@ -4,7 +4,7 @@ steps:
   id: 'Build Docker Image'
 
   # images:
-  # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
+  # - 'us-central1-docker.pkg.dev/<your_project-id>/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'us-central1-docker.pkg.dev/shared-vpc-project-415009/gke-repo/quickstart-image' ]
